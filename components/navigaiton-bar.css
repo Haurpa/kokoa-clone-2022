@@ -1,0 +1,44 @@
+.nav{
+    padding: 25px 80px;
+    background-color: #F9F9FA;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav__ul{
+    display:flex;
+    justify-content: space-between;
+}
+.nav__ul__li{
+    position: relative;
+}
+.nav__ul__li__a{
+    color: black;
+}
+
+.nav__chat_notification{
+    background-color: orangered;
+    display: flex;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    bottom:15px;
+    color: white;
+}
+
+.nav__ellipsis_notification{
+    background-color: orangered;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
