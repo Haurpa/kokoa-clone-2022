@@ -1,0 +1,37 @@
+.user-component{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-component__column{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+
+
+.user-component__avatar-sm{
+    width:80px;
+    height: 80px;
+}
+
+.user-component__avatar-lg{
+    width:  120px;
+    height: 120px;
+}
+
+.user-component__name{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.user-component__discription{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
