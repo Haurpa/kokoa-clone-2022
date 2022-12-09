@@ -1,11 +1,19 @@
 .user-component{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .user-component__column{
     display: flex;
     align-items: center;
+}
+
+.user-component__column:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .user-component__avatar{
@@ -34,4 +42,8 @@
 .user-component__discription{
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__time{
+    margin-bottom: 15px;
 }

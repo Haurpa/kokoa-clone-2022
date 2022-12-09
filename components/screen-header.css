@@ -13,3 +13,26 @@
 .screen-header__icons span{
     margin-left: 35px;
 }
+
+.screen-header__icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-header__icon{
+    margin-left: 45px;
+}
+
+.screen-header__icon:last-child{
+    position: relative;
+}
+
+.screen-header__icon__notification{
+    background-color: orangered;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right:-10px;
+    top: -10px;
+}

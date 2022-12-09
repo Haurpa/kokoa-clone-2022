@@ -1,7 +1,4 @@
-.freind-screen{
-    padding: 0px var(--horizontal-space);
-}
-.friend-screen__channel{
+.main-screen__channel{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,17 +8,18 @@
     margin: 30px 0px;
 }
 
-.friend-screen__friend__name{
+.main-screen__friend__name{
     font-weight: 400;
 }
 
 
 
-.friend-screen__friend__column:last-child{
+.main-screen__friend__column:last-child{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
 
-.friend-screen__friend__column i{
+.main-screen__friend__column i{
     margin-left: 5px;
 }
+

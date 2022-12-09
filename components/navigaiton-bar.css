@@ -26,11 +26,11 @@
     height: 30px;
     border-radius: 50%;
     justify-content: center;
+    color: white;
     align-items: center;
     position: absolute;
     left: 20px;
     bottom:15px;
-    color: white;
 }
 
 .nav__ellipsis_notification{
@@ -42,3 +42,4 @@
     right: -7px;
     top: -7px;
 }
+

@@ -1,0 +1,125 @@
+.find-icons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--grey);
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon span{
+    margin-top: 15px;
+}
+
+.find-icons__icon i{
+    font-size: 30px;
+}
+
+.recommended-friends{
+    border-bottom: 1px solid var(--grey);
+    color: rgba(0,0,0,0.4);
+}
+
+.recommended-friends div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-friends span{
+    display: block;
+    margin:170px 0px;
+    padding: 0px 140px;   
+}
+
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    opacity: 0.5;
+}
+
+.open_chat__post{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.open-chat__post__column{
+    
+}
+
+.open-chat__post__column:first-child{
+    margin-top: 30px;
+}
+
+.open-chat__post___column__title{
+    margin-bottom: 10px;
+}
+
+.open-chat__post___column__hashtags{
+    font-size: 25px;
+    opacity: 0.5;  
+    margin-bottom: 10px;
+}
+
+.open-chat__post___column__members img{
+    width: 30px;
+    height: 30px;
+    border-radius: 35%;
+}
+
+.open-chat__post___column__members{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-chat__post___column__members__count{
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.open-chat__post___column__members .divider{
+    width: 2px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px 8px;
+}
+
+.open-chat__post___column__members__status{
+    color: #FFA7DD;
+
+}
+
+.open-chat__post__column__preview{
+    position: relative;
+}
+
+.open-chat__post__column__preview img{
+    width:160px;
+    height: 160px;
+    border-radius: 10%;
+}
+
+.open-chat__post__column__preview__hearts{
+    width:90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position:absolute;
+    right:15px;
+    bottom: 15px;
+    padding: 2px 0px;
+    font-size: 22px;
+}
+
