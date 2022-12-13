@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .user-component__column{
@@ -47,3 +48,4 @@
 .user-component__time{
     margin-bottom: 15px;
 }
+

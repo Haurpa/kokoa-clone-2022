@@ -3,7 +3,7 @@
     justify-content: center;
     margin-top: 5px;
     position:sticky;
-    top:0;
+    top:5px;
     width:100%;
 }
 .status_bar__column{

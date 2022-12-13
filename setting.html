@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KoKoa Chats</title>
+    <title>Setting</title>
   </head>
   <body>
     <!-- status_bar -->
@@ -25,45 +25,46 @@
       </div>
     </div>
 
-    <!-- screen-header -->
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <div class="screen-header__icon">
-          <i class="fas fa-search fa-lg"></i>
-        </div>
-        <div class="screen-header__icon">
-          <i class="fas fa-comment-medical fa-lg"></i>
-        </div>
-        <div class="screen-header__icon">
-          <i class="fas fa-music fa-lg"></i>
-        </div>
-        <div class="screen-header__icon">
-          <i class="fas fa-cog fa-lg"></i>
-        </div>
+    <header class="alt-screen-header">
+      <div class="alt-screen-header__column">
+        <i class="fas fa-angle-left fa-3x"></i>
+      </div>
+      <div class="alt-screen-header__column">
+        <h1 class="alt-screen-header__title">Settings</h1>
+      </div>
+      <div class="alt-screen-header__column">
+        <i class="fas fa-search fa-2x"></i>
       </div>
     </header>
 
+    <!-- screen-header -->
+
     <main class="main-screen">
-      <!-- user component -->
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="mydog.jpeg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__name">Lejumi</h4>
-              <h6 class="user-component__discription">Hello!</h6>
-            </div>
+      <ul class="settings">
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fas fa-bullhorn fa-2x"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <span class="badge">1</span>
+          <div class="settings__setting__column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fas fa-flask fa-2x"></i>
+            <span>KoKoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting__column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fas fa-info fa-2x"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting__column">
+            <span>Latest Version</span>
+          </div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -76,7 +77,7 @@
         <li class="nav__ul__li">
           <a class="nav__ul__li__a" href="chats.html">
             <span class="nav__chat_notification">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__ul__li">

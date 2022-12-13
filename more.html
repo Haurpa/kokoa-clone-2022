@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KoKoa Friends</title>
+    <title>More</title>
   </head>
   <body>
     <!-- status_bar -->
@@ -27,13 +27,10 @@
 
     <!-- screen-header -->
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <div class="screen-header__icon">
           <i class="fas fa-search fa-lg"></i>
-        </div>
-        <div class="screen-header__icon">
-          <i class="fas fa-comment-medical fa-lg"></i>
         </div>
         <div class="screen-header__icon">
           <i class="fas fa-music fa-lg"></i>
@@ -44,70 +41,84 @@
       </div>
     </header>
 
-    <!-- Friends-name-link -->
-    <a href="#" class="freinds-link"
-      ><i class="fas fa-info-circle fa-lg"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-sm"></i
-    ></a>
-
     <main class="main-screen">
       <!-- user component -->
       <div class="user-component">
-        <div class="user-component__column">
+        <div class="user-component__column more-component__column">
           <img
             src="mydog.jpeg"
-            class="user-component__avatar user-component__avatar-lg"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__name">Lejumi</h4>
-            <!-- this is decription  <h6 class="user-component__discription">My lovely dog is here.</h6> -->
+            <h6 class="user-component__discription">+82-4790-3740</h6>
           </div>
+          <i class="fas fa-exclamation more-component__column__icon"></i>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="main-screen__channel">
-        <div class="main-screen__channel__column">
-          <div class="main-screen__channel__text">Channel</div>
-        </div>
-        <div class="main-screen__channel_column">
-          <i class="fas fa-chevron-up"></i>
+        <div class="user-component__column">
+          <i class="fas fa-comment-alt fa-2x"></i>
         </div>
       </div>
 
-      <div class="user-component main-screen__friend">
-        <div class="user-component__column main-screen__friend__column">
-          <img
-            src="mydog.jpeg"
-            class="user-component__avatar user-component__avatar-sm"
-          />
-          <div class="user-component__text main-screen__friend__text">
-            <h4 class="user-component__name main-screen__friend__name">
-              Channel
-            </h4>
-            <!-- this is decription  <h6 class="user-component__discription">My lovely dog is here.</h6> -->
+      <div class="icons-rows more__icons-rows">
+        <div class="icons-row">
+          <div class="icons-row__icon">
+            <i class="far fa-calendar-check fa-3x"></i>
+            <span>Calendar</span>
+          </div>
+          <div class="icons-row__icon">
+            <i class="far fa-hdd fa-3x"></i> <span>Talk Drive</span>
+          </div>
+          <div class="icons-row__icon">
+            <i class="far fa-grin-squint fa-3x"></i>
+            <span>Emoticons</span>
+          </div>
+          <div class="icons-row__icon">
+            <i class="fas fa-brush fa-3x"></i>
+            <span>Themes</span>
           </div>
         </div>
-        <div class="user-component__column main-screen__friend__column">
-          <div>
-            <span>2</span>
-            <i class="fas fa-chevron-right"></i>
+        <div class="icons-row">
+          <div class="icons-row__icon">
+            <i class="fas fa-link fa-3x"></i>
+            <span>Account</span>
+          </div>
+          <div class="icons-row__icon">
+            <i class="far fa-comments fa-3x"></i>
+            <span>Openchat</span>
+          </div>
+          <div class="icons-row__icon no-icon">
+            <i class="fas fa-link fa-3x"></i>
+            <span>Noneicon</span>
+          </div>
+          <div class="icons-row__icon no-icon">
+            <i class="fas fa-link fa-3x"></i>
+            <span>Noneicon</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-suggestion">
+        <div class="more-suggestion__title">Suggestions</div>
+        <div class="more-suggestion__icons-row">
+          <div class="more-sugeestion__icons-row__icon">
+            <i class="fas fa-quote-right"></i>
+            <span>KoKoa Story</span>
           </div>
         </div>
       </div>
     </main>
 
-    <!-- navigation-bar -->
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__ul__li">
           <a class="nav__ul__li__a" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__ul__li">
           <a class="nav__ul__li__a" href="chats.html">
-            <span class="nav__chat_notification badge">1</span>
+            <span class="nav__chat_notification">1</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>

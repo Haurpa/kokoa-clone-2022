@@ -4,6 +4,8 @@
 @import "./components/screen-header.css";
 @import "./components/user-component.css";
 @import "./components/badge.css";
+@import "./components/icons-row.css";
+@import "./components/alt-screen-header.css";
 
 /* screens */
 @import "./screen/login.css";
@@ -11,13 +13,18 @@
 @import "./screen/friends-link.css";
 @import "./screen/friend.css";
 @import "./screen/find.css";
+@import "./screen/more.css";
+@import "./screen/setting.css";
+@import "./screen/chat.css";
 
 @import "reset.css";
 @import "variables.css";
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 10000vh;
 }
+
 
 .main-screen{
     margin: 0px var(--horizontal-space);

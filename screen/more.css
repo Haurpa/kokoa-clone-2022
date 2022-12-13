@@ -1,0 +1,50 @@
+.more-component__column{
+    position: relative;
+}
+
+.more-component__column__icon{
+    position: absolute;
+    right: -30px;
+    bottom: 22px;
+    
+    color: #FF5C4A;
+    border: 1px solid #FF5C4A;
+    padding: 2px 7px;
+    border-radius: 50%;
+}
+
+.more__icons-rows{
+    margin-top: 50px;
+}
+
+.more-suggestion{
+    padding-top: 50px;
+}
+.more-suggestion__icons-row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+.more-suggestion__title{
+    font-size: 20px;
+}
+
+.more-sugeestion__icons-row__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-sugeestion__icons-row__icon i{
+    background-color: var(--yellow);
+    font-size: 50px;
+    padding: 15px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.more-sugeestion__icons-row__icon span{
+    opacity: 0.5;
+}

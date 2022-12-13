@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+  </head>
+  <body id="chat-screen">
+    <!-- status_bar -->
+    <div class="status_bar">
+      <div class="status_bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-lg"></i>
+      </div>
+      <div class="status_bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status_bar__column">
+        <!-- ignore the lock icon -->
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header">
+      <div class="alt-screen-header__column">
+        <span><i class="fas fa-angle-left fa-3x"></i></span>
+        <span></span>
+      </div>
+      <div class="alt-screen-header__column">
+        <h1 class="alt-screen-header__title">하늘이</h1>
+      </div>
+      <div class="alt-screen-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <!-- screen-header -->
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2022년 12월 11일 일요일</div>
+      <div class="chat__message">
+        <img src="mydog.jpeg" />
+        <div class="chat__message__text">
+          <span class="chat__message__name">하늘이</span>
+          <div class="chat__message__info">
+            <span class="chat__message__info__content">안녕!</span>
+            <span class="chat__message__info__time">11:21</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat__message message--own">
+        <div class="chat__message__text">
+          <div class="chat__message__info">
+            <span class="chat__message__info__content">안녕!</span>
+            <span class="chat__message__info__time">11:21</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,26 +1,5 @@
-.find-icons{
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid var(--grey);
-}
-
-.find-icons__icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.find-icons__icon span{
-    margin-top: 15px;
-}
-
-.find-icons__icon i{
-    font-size: 30px;
-}
-
 .recommended-friends{
+    padding-top: 35px;
     border-bottom: 1px solid var(--grey);
     color: rgba(0,0,0,0.4);
 }
@@ -43,6 +22,12 @@
     margin: 30px 0px;
     opacity: 0.5;
 }
+.find__icons-rows{
+    padding-top: 25px;
+}
+.find__icons-row__icon i{
+    font-size: 40px;
+}
 
 .open_chat__post{
     display: flex;
@@ -50,9 +35,6 @@
     font-size: 25px;
 }
 
-.open-chat__post__column{
-    
-}
 
 .open-chat__post__column:first-child{
     margin-top: 30px;

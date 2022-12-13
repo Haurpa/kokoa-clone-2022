@@ -1,0 +1,31 @@
+.settings{
+    margin-top: 45px;
+}
+
+.settings__setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom:40px
+}
+
+.settings__setting:last-child{
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.settings__setting__column i{
+    margin-right: 40px;
+    width:30px;
+}
+
+.settings__setting__column span{
+    font-size: 30px;
+}
+
+.settings__setting__column:last-child{
+    opacity: 0.5;
+}
